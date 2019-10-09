@@ -69,10 +69,10 @@
 
         <!-- contato -->
         <section class="py-3">
-            <div class="container text-center">
+            <div class="container text-center ">
                 <h1>Aline Borges</h1>
                 <h3 class="font-italic font-weight-light">Desenvolvedora front-end</h3>
-                <div class="d-flex justify-content-around redes-sociais">
+                <div class="d-flex flex-column flex-md-row flex-lg-row justify-content-around redes-sociais">
                     <a href="" target="_blank">
                         <i class="fab fa-github-alt"></i>
                         <span>github.com/nome</span>
@@ -91,53 +91,56 @@
     </header>
 
     <!-- seções - habilidades e sobre -->
-    <section class="d-flex flex-column flex-lg-row justify-content-center text-center bg-roxo text-white p-4">
-        <div class="container p-3">
-            <h3 class="mb-4">Habilidades</h3>
-            <div class="mx-5 mb-3 px-5">
-                <div class="row justify-content-center">
-                    <div class="col">
-                        <i class="fab fa-html5 imagem-hab"></i>
-                        <p>HTML</p>
-                    </div>
-                    <div class="col">
-                        <i class="fab fa-css3-alt imagem-hab"></i>
-                        <p>CSS</p>
-                    </div>
-                    <div class="col">
-                        <i class="fab fa-js imagem-hab"></i>
-                        <p>JavaScript</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <i class="fab fa-sass imagem-hab"></i>
-                        <p>Sass</p>
-                    </div>
-                    <div class="col">
-                        <i class="fas fa-book imagem-hab"></i>
-                        <p>jQuery</p>
-                    </div>
-                    <div class="col">
-                        <i class="fab fa-react imagem-hab"></i>
-                        <p>React</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <i class="fab fa-bootstrap imagem-hab"></i>
-                        <p>Bootstrap</p>
-                    </div>
-                    <div class="col">
-                        <i class="fab fa-git-alt imagem-hab"></i>
-                        <p>Git</p>
-                    </div>
-                    <div class="col">
-                        <i class="fas fa-tasks imagem-hab"></i>
-                        <p>Scrum</p>
-                    </div>
-                </div>
-            </div>
+    <section class=" text-center bg-roxo text-white p-4">
+        <div class="container d-flex  flex-column flex-lg-row justify-content-center p-4">
+                <div class=" container">
+                        <h3>Habilidades</h3>
+                        <div class="habilidades container col-leg-5">
+                            <div class=" row justify-content-center">
+                                <div class="col">
+                                    <i class="fab fa-html5 imagem-hab"></i>
+                                    <p>HTML</p>
+                                </div>
+                                <div class="col">
+                                    <i class="fab fa-css3-alt imagem-hab"></i>
+                                    <p>CSS</p>
+                                </div>
+                                <div class="col">
+                                    <i class="fab fa-js imagem-hab"></i>
+                                    <p>JavaScript</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col">
+                                    <i class="fab fa-sass imagem-hab"></i>
+                                    <p>Sass</p>
+                                </div>
+                                <div class="col">
+                                    <i class="fas fa-book imagem-hab"></i>
+                                    <p>jQuery</p>
+                                </div>
+                                <div class="col">
+                                    <i class="fab fa-react imagem-hab"></i>
+                                    <p>React</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col">
+                                    <i class="fab fa-bootstrap imagem-hab"></i>
+                                    <p>Bootstrap</p>
+                                </div>
+                                <div class="col">
+                                    <i class="fab fa-git-alt imagem-hab"></i>
+                                    <p>Git</p>
+                                </div>
+                                <div class="col">
+                                    <i class="fas fa-tasks imagem-hab"></i>
+                                    <p>Scrum</p>
+                                </div>
+                            </div>
+                        </div>
+                </div> 
+              
             <section>
                 <h3>Sobre</h3>
                 <p>Aluna do <span>bootcamp de front-end</span> da {reprograma}.</p>
@@ -265,8 +268,8 @@
     </section>
 
     <!-- footer -->
-    <footer>
-        <small>Desenvolvido com Bootstrap por Nome enquanto aluna da<span><a href="http://reprograma.com.br/index.html"
+    <footer class = "bg-roxo text-white text-center">
+        <small>Desenvolvido com Bootstrap por Aline Borges enquanto aluna da <span><a href="http://reprograma.com.br/index.html"
                     target="_blank">{reprograma}</a></span> 2019</small>
     </footer>
 

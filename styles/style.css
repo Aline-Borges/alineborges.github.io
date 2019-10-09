@@ -26,8 +26,9 @@ nav a:hover {
     color: #7e459b;
 }
 
-.habilidades {
+.habilidades i {
     font-size: 1.8rem;
+
 }
 
 .tamanho-card{
